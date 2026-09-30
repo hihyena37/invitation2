@@ -69,13 +69,13 @@ export const WEDDING_DATA = {
       }
     },
     mother: {
-      name: '안명희',
+      name: '전영',
       deceased: false,
       phone: '01026413422',
       account: {
-        bank: '농협은행',
-        number: '301-0005-7028-11',
-        holder: '안명희'
+        bank: '국민은행',
+        number: '631-21-0274627',
+        holder: '전영'
       }
     },
     account: {
