@@ -5,7 +5,7 @@ import FadeIn from './common/FadeIn';
 
 const accountGroups = [
   { id: 'groom', label: '신랑측', accounts: [{ role: '신랑', ...WEDDING_DATA.groom.account }, { role: '혼주', ...WEDDING_DATA.groom.mother.account }] },
-  { id: 'bride', label: '신부측', accounts: [{ role: '신부', ...WEDDING_DATA.bride.account }, { role: '혼주', ...WEDDING_DATA.bride.father.account }, { role: '혼주', ...WEDDING_DATA.bride.mother.account }] }
+  { id: 'bride', label: '신부측', accounts: [{ role: '신부', ...WEDDING_DATA.bride.account }, { role: '혼주', ...WEDDING_DATA.bride.mother.account }] }
 ];
 
 export default function AccountSection({ onCopyToast }) {
